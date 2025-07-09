@@ -1,0 +1,18 @@
+Startup:
+    Default profile: PowerShell 7
+    Default terminal application: Windows terminal
+    New instance behavior: Attach to the most recently used window on this desktop
+Appearance:
+    Tab width mode: Title length
+Compatibility:
+    Allow Windows Terminal to run in the background: On
+
+Profiles:
+    Defaults:
+        Appearance:
+            Color scheme: Vintage
+            Font face: CommitMono Nerd Font Mono
+            Font size: 14
+            Cursor shape: Vintage
+            Cursor height: 16
+            Padding: 4
