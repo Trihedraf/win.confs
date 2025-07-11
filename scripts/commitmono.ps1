@@ -4,5 +4,5 @@ if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 }
 Start-BitsTransfer https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CommitMono.zip $env:TMP\CommitMono.zip
 Expand-Archive -Path $env:TMP\CommitMono.zip -DestinationPath $env:SystemRoot\Fonts\ -Force
-reg import commitmono.reg
+reg import ..\files\commitmono.reg
 rm $env:TMP\CommitMono.zip
