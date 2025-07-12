@@ -29,3 +29,26 @@ function createHardLink {
         }
     }
 }
+
+# Function to install winget packages
+function wi {
+    param (
+        $pkg,
+        $arg0,
+        $arg1,
+        $arg2,
+        $arg3
+    )
+    winget install --id $pkg --accept-source-agreements --accept-package-agreements $arg0 $arg1 $arg2
+}
+
+# Function to install winget packages silently
+function wis {
+    param (
+        $pkg,
+        $arg0,
+        $arg1,
+        $arg2
+    )
+    wi -pkg $pkg -arg0 --silent -arg1 $arg0 -arg2 $arg1 -arg3 $arg2
+}
