@@ -1,0 +1,19 @@
+{
+  "mode": "labelsWithoutCombining",
+  "taskbarItemWidth": 0,
+  "runningIndicatorStyle": "fullWidth",
+  "progressIndicatorStyle": "sameAsRunningIndicatorStyle",
+  "excludedPrograms[0]": "excluded1.exe",
+  "minimumTaskbarItemWidth": 0,
+  "maximumTaskbarItemWidth": 256,
+  "fontSize": 12,
+  "fontFamily": "CommitMono Nerd Font",
+  "textTrimming": "clip",
+  "leftAndRightPaddingSize": 4,
+  "spaceBetweenIconAndLabel": 12,
+  "runningIndicatorHeight": 0,
+  "runningIndicatorVerticalOffset": 0,
+  "alwaysShowThumbnailLabels": 0,
+  "labelForSingleItem": "%name%",
+  "labelForMultipleItems": "[%amount%] %name%"
+}

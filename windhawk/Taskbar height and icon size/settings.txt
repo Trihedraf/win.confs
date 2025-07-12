@@ -1,0 +1,5 @@
+{
+  "TaskbarHeight": 36,
+  "IconSize": 16,
+  "TaskbarButtonWidth": 37,
+}
