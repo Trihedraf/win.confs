@@ -45,7 +45,6 @@ wis -pkg Obsidian.Obsidian
 wis -pkg OBSProject.OBSStudio
 wis -pkg OpenSCAD.OpenSCAD
 wis -pkg Oracle.VirtualBox
-wis -pkg RamenSoftware.Windhawk
 wis -pkg RARLab.WinRAR
 wis -pkg RustDesk.RustDesk
 wis -pkg SergeySerkov.TagScanner
