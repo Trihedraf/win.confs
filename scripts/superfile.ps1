@@ -9,4 +9,6 @@ createHardLink -link "$env:LOCALAPPDATA\superfile\config.toml" -file "..\.config
 createHardLink -link "$env:LOCALAPPDATA\superfile\hotkeys.toml" -file "..\.config\superfile\hotkeys.toml"
 createHardLink -link "$env:LOCALAPPDATA\superfile\toggleDotFile" -file "..\.config\superfile\toggleDotFile"
 
-powershell -ExecutionPolicy Bypass -Command "Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://superfile.netlify.app/install.ps1'))"
+if ($args[0] -eq 'install') {
+    powershell -ExecutionPolicy Bypass -Command "Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://superfile.netlify.app/install.ps1'))"
+}
